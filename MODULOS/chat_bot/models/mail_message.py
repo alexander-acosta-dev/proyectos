@@ -112,8 +112,8 @@ class MailMessage(models.Model):
         return "No pude procesar tu consulta."
 
     def _ask_google(self, prompt):
-        api_key = os.getenv('AIzaSyBqGy7Eb_q7DqhXaP5FEyyUNzs7qCTJjIk')
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBqGy7Eb_q7DqhXaP5FEyyUNzs7qCTJjIk"
+        api_key = os.getenv('')
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
         payload = {
             "contents": [
                 {
