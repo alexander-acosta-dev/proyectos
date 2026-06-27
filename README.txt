@@ -1,4 +1,4 @@
-Este repositorio contiene una carpeta "MODULOS".
+Este repositorio contiene una carpeta "Odoo".
 Estos son todos los proyectos en los que he participado como desarrollador full-stack
 Lenguajes Utilizados en los proyectos
     - Python
